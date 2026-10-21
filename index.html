@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>RUSTHY JADE IMPON — PORTFOLIO</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ===================== TOP BAR (No logo, No 01-05 numbering) ===================== -->
+<header class="topbar">
+<div class="topbar__inner">
+<nav aria-label="Main navigation" class="topbar__nav">
+<a class="navlink is-active" href="#home">HOME</a>
+<a class="navlink" href="#about">ABOUT</a>
+<a class="navlink" href="#skills">SKILLS</a>
+<a class="navlink" href="#projects">PROJECTS</a>
+<a class="navlink" href="#contact">CONTACT</a>
+</nav>
+<div class="topbar__meta">
+<button aria-label="Toggle theme" id="themeToggle" title="Toggle Theme" class="">◐</button>
+<button aria-expanded="false" aria-label="Menu" class="burger" id="hamburger">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+</header>
+<!-- ===================== FULLSCREEN MENU (Mobile) ===================== -->
+<div aria-hidden="true" class="menu" id="menu">
+<nav aria-label="Mobile navigation" class="menu__links">
+<a class="menu__link navlink" href="#home">HOME</a>
+<a class="menu__link navlink" href="#about">ABOUT</a>
+<a class="menu__link navlink" href="#skills">SKILLS</a>
+<a class="menu__link navlink" href="#projects">PROJECTS</a>
+<a class="menu__link navlink" href="#contact">CONTACT</a>
+</nav>
+<p class="menu__foot">RUSTHY JADE IMPON — BSIT — 2026</p>
+</div>
+<!-- ===================== HOME ===================== -->
+<section class="hero" id="home">
+<div class="hero__grid">
+<div class="hero__copy">
+<!-- Relocated Date and Time to Home Page -->
+<div class="hero__clock-card">
+<span class="hero__clock-dot"></span>
+<span class="hero__clock-val" id="dateTime">Wed, Oct 21, 2026, 13:22:50</span>
+</div>
+<div>
+<p class="sticker">★ BSIT STUDENT · BESTLINK COLLEGE OF THE PHILIPPINES</p>
+</div>
+<h1 class="headline">
+        RUSTHY JADE<br>
+<span class="headline__fill">IMPON</span>
+</h1>
+<!-- Short Greeting -->
+<div class="hero__greeting-box">
+<p class="hero__greeting-tag">SHORT GREETING</p>
+<p class="hero__greeting-text">Hello and welcome! I’m Rusthy Jade Impon. Thank you for visiting my portfolio!</p>
+</div>
+<!-- Introduction -->
+<p class="hero__intro">I am an aspiring IT student at Bestlink College of the Philippines, eager to learn, grow, and build a strong foundation in technology. This portfolio shows my progress, what I’ve learned, and the skills I am developing as I work toward my degree.</p>
+<div class="hero__btns">
+<a class="btn btn--solid" href="#about">CONTINUE TO ABOUT ME →</a>
+<a class="btn" href="#projects">VIEW PROJECTS</a>
+</div>
+</div>
+<div class="hero__media">
+<figure class="hero__frame">
+<!-- Ready for user profile photo: clean img tag with src provided for user to customize -->
+<img alt="Profile Photo of Rusthy Jade Impon" id="profileImg" ;  src="profile.jpg">
+<div class="hero__frame-placeholder" id="framePlaceholder" style="display: flex;">
+<div class="hero__frame-icon">👤</div>
+<div class="hero__frame-text">YOUR PROFILE PHOTO<br><span style="font-size:10px; opacity:.7;" class="">(INSERT PHOTO IN SRC)</span></div>
+</div>
+</figure>
+<span class="tag tag--a">BSIT YEAR 1</span>
+<span class="tag tag--b">EAGER TO LEARN</span>
+</div>
+</div>
+</section>
+<!-- ===================== MARQUEE ===================== -->
+<div aria-hidden="true" class="ticker">
+<div class="ticker__track">
+<span class="">COMPUTER SYSTEMS ◆ HTML & WEB STRUCTURE ◆ FILE MANAGEMENT ◆ TROUBLESHOOTING ◆ PERSISTENT ◆ DETAIL-ORIENTED ◆ BESTLINK COLLEGE OF THE PHILIPPINES ◆&nbsp;</span>
+<span class="">COMPUTER SYSTEMS ◆ HTML & WEB STRUCTURE ◆ FILE MANAGEMENT ◆ TROUBLESHOOTING ◆ PERSISTENT ◆ DETAIL-ORIENTED ◆ BESTLINK COLLEGE OF THE PHILIPPINES ◆&nbsp;</span>
+</div>
+</div>
+<!-- ===================== ABOUT ME ===================== -->
+<section class="section" id="about">
+<div class="container">
+<div class="section__title-wrap">
+<h2 class="section__title">ABOUT ME</h2>
+<p class="section__subtitle mono">PERSONAL STATEMENT & ACADEMIC FOCUS</p>
+</div>
+<div class="about-grid">
+<div class="about-card">
+<span class="about-card__badge">BACKGROUND</span>
+<h3 class="">HELLO,</h3>
+<p class="">My name is <strong>Rusthy Jade Impon</strong>. I am currently studying at <strong>Bestlink College of the Philippines</strong>, where I am pursuing a Bachelor of Science in Information Technology (BSIT). I chose this course because technology has always interested me, and I want to build a career in this growing and important field.</p>
+<p class="">I am committed to doing my best in my studies because I know that learning IT will help me develop valuable knowledge and practical abilities that I can use now and in my future work. I believe that with hard work, focus, and continuous learning, I can improve my skills and become a capable and confident IT professional.</p>
+</div>
+<div class="about-card about-card--highlight">
+<span class="about-card__badge">CORE VALUES</span>
+<h3 class="">MY MINDSET</h3>
+<p class="">I am someone who is always ready to learn new things, I stay determined when facing difficult tasks, and I value doing quality work. My goal is to grow step by step, master the fundamentals, and keep improving as I go through my course.</p>
+<ul class="about-meta-list mono">
+<li class="about-meta-item">
+<span class="about-meta-label">FULL NAME</span>
+<span class="about-meta-val">RUSTHY JADE IMPON</span>
+</li>
+<li class="about-meta-item">
+<span class="about-meta-label">PROGRAM</span>
+<span class="about-meta-val">BS INFORMATION TECHNOLOGY</span>
+</li>
+<li class="about-meta-item">
+<span class="about-meta-label">INSTITUTION</span>
+<span class="about-meta-val">BESTLINK COLLEGE OF THE PH</span>
+</li>
+<li class="about-meta-item">
+<span class="about-meta-label">STATUS</span>
+<span class="about-meta-val">ACTIVE STUDENT</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- ===================== SKILLS ===================== -->
+<section class="section section--alt" id="skills">
+<div class="container">
+<div class="section__title-wrap">
+<h2 class="section__title">MY SKILLS</h2>
+<p class="section__subtitle mono">CLICK ON ANY SKILL BELOW TO VIEW WHAT IT ENTAILS</p>
+</div>
+<div class="skills-container">
+<div class="skills-column">
+<div class="skills-column-title mono">▼ TECHNICAL SKILLS</div>
+<ul class="skills-list">
+<li class="skill-item" data-desc="Proficiency in using operating system environments, standard file organization, folder hierarchies, shortcut navigation, and storage management." data-title="Basic computer operation and file management" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">💻</span>
+<span class="skill-item__title">Basic computer operation and file management</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Knowledge of computer hardware components (CPU, RAM, storage drives, motherboard, peripherals) and the interplay between software and internal systems." data-title="Understanding of computer systems and components" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">⚙️</span>
+<span class="skill-item__title">Understanding of computer systems and components</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Foundational understanding of markup languages, structuring web documents using semantic tags, links, images, tables, and standard HTML boilerplate." data-title="Introduction to HTML and web page structure" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🌐</span>
+<span class="skill-item__title">Introduction to HTML and web page structure</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Ability to identify, diagnose, and resolve standard technical hiccups including peripheral disconnects, display configurations, application crashes, and software errors." data-title="Basic troubleshooting of common computer issues" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🔧</span>
+<span class="skill-item__title">Basic troubleshooting of common computer issues</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Structuring course folders, maintaining consistent file naming conventions, version keeping, backups, and efficient digital archiving practices." data-title="Learning how to organize and manage digital files" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">📁</span>
+<span class="skill-item__title">Learning how to organize and manage digital files</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Utilizing search engines, academic sources, digital library databases, and reference tools to discover accurate data and conduct thorough academic research." data-title="Researching information and using technology for schoolwork" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🔍</span>
+<span class="skill-item__title">Researching information and using technology for schoolwork</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="Hands-on competence in producing structured documents, dynamic slide presentations, and spreadsheets using suites like Microsoft Office and Google Workspace." data-title="Familiarity with productivity tools" data-type="TECHNICAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">📊</span>
+<span class="skill-item__title">Familiarity with productivity tools (docs, slides, sheets)</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+</ul>
+</div>
+<div class="skills-column">
+<div class="skills-column-title mono">▼ PERSONAL SKILLS</div>
+<ul class="skills-list">
+<li class="skill-item" data-desc="I check my work carefully and aim for quality in every task, ensuring accuracy and attention to precision." data-title="Detail-oriented" data-type="PERSONAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🎯</span>
+<span class="skill-item__title">Detail-oriented</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="I keep trying until I understand, taking challenges as learning opportunities and refusing to give up on complex problems." data-title="Patient and persistent" data-type="PERSONAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">⏳</span>
+<span class="skill-item__title">Patient and persistent</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="I always look for ways to do better, seeking feedback and continuously exploring new concepts to level up my skills." data-title="Eager to improve" data-type="PERSONAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🚀</span>
+<span class="skill-item__title">Eager to improve </span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+<li class="skill-item" data-desc="I cultivate teamwork, listen actively, respect peer ideas, and collaborate readily during group discussions and academic activities." data-title="Respectful, cooperative, and ready to help classmates" data-type="PERSONAL">
+<div class="skill-item__main">
+<span class="skill-item__icon">🤝</span>
+<span class="skill-item__title">Respectful, cooperative, and ready to help classmates</span>
+</div>
+<span class="skill-item__badge mono">DETAILS ↗</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Dialog for Skill Description -->
+<dialog class="skill-modal" id="skillDialog">
+<span class="skill-modal__tag" id="skillModalTag">PERSONAL SKILL</span>
+<h3 class="skill-modal__title" id="skillModalTitle">Respectful, cooperative, and ready to help classmates</h3>
+<p class="skill-modal__desc" id="skillModalDesc">I cultivate teamwork, listen actively, respect peer ideas, and collaborate readily during group discussions and academic activities.</p>
+<button class="btn btn--solid skill-modal__close" id="skillModalClose" type="button">CLOSE ✕</button>
+</dialog>
+<!-- ===================== MY PROJECTS ===================== -->
+<section class="section" id="projects">
+<div class="container">
+<div class="section__title-wrap">
+<h2 class="section__title">MY PROJECTS</h2>
+<p class="section__subtitle mono">ACTIVITIES & PROJECTS COMPLETED FROM PRELIM TO FINAL</p>
+<div class="proj-note mono">
+        ★ Note: Activities I was absent for are not included in this list.
+      </div>
+</div>
+<div class="projects-grid">
+<article class="project-card">
+<span class="project-card__num">01</span>
+<div class="project-card__thumb">
+<img alt="First code in learning Html screenshot"  src="firstact.png">
+</div>
+<div class="project-card__body">
+<div>
+<h3 class="project-card__title">First code in learning Html</h3>
+<p class="project-card__desc">My initial coursework exercise creating foundational HTML elements, structural tags, and basic styling.</p>
+</div>
+<div class="project-card__actions">
+<a class="btn btn--solid btn--sm" href="https://imponrusthjadeh.github.io/FirstActivity/">OPEN ↗</a>
+<button class="btn btn--sm project-info-btn" data-project="First code in learning Html">INFO</button>
+</div>
+</div>
+</article>
+<article class="project-card">
+<span class="project-card__num">02</span>
+<div class="project-card__thumb">
+<img alt="MY Food Recipe screenshot"  src="Recipe.png">
+</div>
+<div class="project-card__body">
+<div>
+<h3 class="project-card__title">MY Food Recipe</h3>
+<p class="project-card__desc">An interactive recipe showcase webpage featuring ingredients, steps, and responsive media layout.</p>
+</div>
+<div class="project-card__actions">
+<a class="btn btn--solid btn--sm" href="https://imponrusthjadeh.github.io/AdoboRecipe/">OPEN ↗</a>
+<button class="btn btn--sm project-info-btn" data-project="MY Food Recipe">INFO</button>
+</div>
+</div>
+</article>
+<article class="project-card">
+<span class="project-card__num">03</span>
+<div class="project-card__thumb">
+<img alt="MyFavorite Music screenshot"  src="Music.png">
+</div>
+<div class="project-card__body">
+<div>
+<h3 class="project-card__title">MyFavorite Music</h3>
+<p class="project-card__desc">A music tribute page highlighting favorite tracks, artist notes, lyrics layout, and media integration.</p>
+</div>
+<div class="project-card__actions">
+<a class="btn btn--solid btn--sm" href="https://imponrusthjadeh.github.io/music/">OPEN ↗</a>
+<button class="btn btn--sm project-info-btn" data-project="MyFavorite Music">INFO</button>
+</div>
+</div>
+</article>
+<article class="project-card">
+<span class="project-card__num">04</span>
+<div class="project-card__thumb">
+<img alt="HAPPYTEACHERSDAY screenshot" src="Teachers.png">
+</div>
+<div class="project-card__body">
+<div>
+<h3 class="project-card__title">HAPPYTEACHERSDAY</h3>
+<p class="project-card__desc">A creative celebration webpage built in honor of teachers and mentors for World Teachers' Day.</p>
+</div>
+<div class="project-card__actions">
+<a class="btn btn--solid btn--sm" href="https://imponrusthjadeh.github.io/HAPPYTEACHERSDAY/">OPEN ↗</a>
+<button class="btn btn--sm project-info-btn" data-project="HAPPYTEACHERSDAY">INFO</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- ===================== GET IN TOUCH ===================== -->
+<section class="section section--alt" id="contact">
+<div class="container">
+<div class="section__title-wrap">
+<h2 class="section__title">GET IN TOUCH</h2>
+<p class="section__subtitle mono">FEEL FREE TO REACH OUT THROUGH ANY OF THESE CHANNELS</p>
+</div>
+<div class="contact-wrap">
+<style class="">
+.contact-item { cursor: default; grid-template-columns: 44px 140px 1fr !important; }
+.contact-item:hover { transform: none !important; box-shadow: var(--shadow-sm) !important; background: var(--paper) !important; color: inherit !important; }
+</style><div class="contact-card">
+<p class="contact-intro">You may reach me through:</p>
+<ul class="contact-items"><li class="contact-item" style="cursor: default;">
+<span class="contact-item__icon">👤</span>
+<span class="contact-item__label">FULL NAME:</span>
+<span class="contact-item__value">Rusthy Jade Impon</span>
+</li>
+<li class="contact-item" style="cursor: default;">
+<span class="contact-item__icon">📞</span>
+<span class="contact-item__label">CONTACT NUMBER:</span>
+<span class="contact-item__value">09928599036</span>
+</li>
+<li class="contact-item" style="cursor: default;">
+<span class="contact-item__icon">✉️</span>
+<span class="contact-item__label">EMAIL ADDRESS:</span>
+<span class="contact-item__value">rusthyocsirah@gmail.com</span>
+</li></ul>
+</div>
+</div>
+</div>
+</section>
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+<div class="container">
+<p class="footer__giant">RUSTHY JADE IMPON</p>
+<div class="footer__meta mono">
+<p class="">© 2026 Rusthy Jade Impon. All Rights Reserved.</p>
+<p class="">BSIT STUDENT · BESTLINK COLLEGE OF THE PHILIPPINES</p>
+</div>
+</div>
+</footer>
+<!-- Back to top button -->
+<button aria-label="Back to top" class="totop" id="backToTop" title="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
