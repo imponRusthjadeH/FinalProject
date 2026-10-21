@@ -132,11 +132,6 @@ function setActiveLink() {
 window.addEventListener('scroll', setActiveLink);
 setActiveLink();
 
-// ---------- Project Info Buttons (placeholder functionality) ----------
-const projectBtns = document.querySelectorAll('.project-info-btn');
-projectBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const projectName = btn.getAttribute('data-project');
-    alert(`Project: ${projectName}\n\nThis section will be updated with project details soon.`);
+
   });
 });
